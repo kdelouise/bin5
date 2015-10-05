@@ -3,13 +3,11 @@
     <head>
       <title>Bin 5 Restaurant - SI, NY</title>
 
-
-      <link rel="stylesheet" href="css/reset.css" media="screen" title="no title" charset="utf-8">
       <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
       <link rel="stylesheet" href="css/fontface.css" media="screen" title="no title" charset="utf-8">
-      <link rel="stylesheet" href="css/new.css" media="screen" title="no title" charset="utf-8">
 
       <script src="vendor/jquery-2.1.3.min.js"></script>
+      <script src="vendor/parallax.min.js"></script>
       <script src="js/site.js"></script>
       <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAusAkZBuQxzyU67aCIYaW82oxXXj-1rUU"></script>
 
@@ -34,20 +32,19 @@
 
         }
         google.maps.event.addDomListener(window, 'click', initialize);
-
       </script>
 
     </head>
 
     <body>
 
-      <div class="wrapper">
+      <div class="wrapper group">
 
         <header>
           <nav class="nav">
-            <a href="#"><img class="logo_white left home" src="img/logo_white_small.svg"></a>
+            <a href="#"><img class="logo_white left about" src="img/logo_white_small.svg"></a>
             <ul class="right">
-              <li class="home">ABOUT</li>
+              <li class="about">ABOUT</li>
               <li class="menu">MENU</li>
               <li class="gallery">GALLERY</li>
               <li class="contact">CONTACT</li>
@@ -57,158 +54,227 @@
 
         <div class="content">
 
-          <div id="home">
-            <img width="100%" class="home_img" src="img/home_img.jpg">
-            <a href="http://www.silive.com/readerschoice/2015/05/watch_bin_5_your_best_restaura.html#incart_river_mobileshort">Voted Staten Island's Best Restraunt of 2015</a>, Bin 5 is the premiere boutique hideaway of Staten Island's north shore.
-            <br><br>
-            The restaurant's name Bin 5 manifested from the image of a picturesque wine bin intertwined with the fact that it is the fifth restaurant opened by the Da Noi family. Originally opened to showcase the talents of the award-winning chef Frank Bilotti, Bin 5 continues to keep the promise of exclusivity and originality with the perfect fusion of tradition and innovation.
-            <br><br>
-            Customers continue to call "Bin" their home-away-from-home as service is always personal and guests are always treated like family. Make the trip and peer into the nooks and crannies of the Da Noi restaurant group for a treasure of culinary delights and a truly unique dining experience.
-          </div>
-          <div class="parallax">
-            <div class="parallax__group">
-              <div class="parallax__layer parallax__layer--back">
-                <img width="100%" class="home_img" src="img/home_img.jpg">
+          <div id="about">
+            <div class="parallax-window home-image" data-parallax="scroll" data-image-src="img/IMG_2478.JPG">
+              <div class="first">
+                <div class="home-img_text1">Bin 5
+                <span class="home-img_subtext"> | Craft Cocktails + Cuisine</span></div>
               </div>
-              <div class="parallax__layer parallax__layer--base">
-                <img width="100%" class="home_img" src="img/home_img.jpg">
+              <div class="home-img_text2">
+                VOTED STATEN ISLAND'S BEST RESTAURANT 2015
               </div>
             </div>
-            <div class="parallax__group">
-              <img width="100%" class="home_img" src="img/home_img.jpg">
+            <div class="second">
+              Michelin rated and named Staten Island's Best Restaurant of 2015, Bin 5 serves unique eats that push the boundaries of flavor and creativity . Coupled with an eclectic yet comfortable atmosphere and service that is on point as much as it is performative, Bin 5 is easily an establishment you can call a home away from home.
             </div>
-          </div>
+            <div class="parallax-window home-image" data-parallax="scroll" data-image-src="img/IMG_2478.JPG">
+              <div class="first">
+                <div class="home-img_text1">Bin 5
+                <span class="home-img_subtext"> | Craft Cocktails + Cuisine</span></div>
+              </div>
+              <div class="home-img_text2">
+                VOTED STATEN ISLAND'S BEST RESTAURANT 2015
+              </div>
+            </div>
+            <div class="second">
+              Michelin rated and named Staten Island's Best Restaurant of 2015, Bin 5 serves unique eats that push the boundaries of flavor and creativity . Coupled with an eclectic yet comfortable atmosphere and service that is on point as much as it is performative, Bin 5 is easily an establishment you can call a home away from home.
+            </div>
 
+
+          </div>
 
           <div id="menu" class="incative">
 
             <div class="salads group">
-              <label>Fresh Salads</label>
+              <label>SALADS</label>
               <ul class="group">
-                <li><label>Baby Arugula</label>
-                with dried cranberries + walnuts, tossed in a pomegranate vinaigrette, topped with fresh goat cheese
-                $8.95</li>
+                <li><label>BABY ARUGULA</label>
+                  with dried cranberries + walnuts, tossed in a pomegranate vinaigrette, topped with fresh goat cheese<br>
+                <span>$8.95</span></li>
 
-                <li><label>Fresh Mozzarella Salad</label>
-                with roasted tomatoes, roasted peppers + grilled zucchini finished with balsamic glaze
-                $10.95</li>
+                <li><label>MESCLUN SHRIMP</label>
+                  mesclun greens tossed in a creamy balsamic dressing with grilled shrimp<br>
+                <span>$10.95</span></li>
 
-                <li><label>Mesclun Peach Salad</label>
-                mesclun greens with grilled peaches + mascarpone cheese in a honey vinaigrette
-                $8.95</li>
+                <li><label>MESCLUN PEACH</label>
+                  mesclun greens with grilled peaches + mascarpone cheese in a honey vinaigrette<br>
+                <span>$10.95</span></li>
 
-                <li><label>Panzanella Salad</label>
-                toasted bread with tomatoes, onions, garlic + fresh basil in white balsamic + extra virgin olive oil
-                $8.95</li>
+                <li><label>FRESH MOZZARELLA</label>
+                  with roasted tomatoes, roasted peppers + grilled zucchini finished with balsamic glaze<br>
+                <span>$8.95</span></li>
 
-                <li><label>Mesclun Shrimp Salad</label>
-                mesclun greens tossed in a creamy balsamic dressing with grilled shrimp
-                $12.95<li>
+                <li><label>PANZANELLA</label>
+                  toasted bread with tomatoes, onions, garlic + fresh basil in white balsamic + extra virgin olive oil<br>
+                <span>$9.95</span></li>
               </ul>
             </div>
 
             <div class="appetizers group">
-              <label>Appetizers</label>
+              <label>APPETIZERS</label>
               <ul class="group">
-                  <li>Home Made Crepes
-                  filled with ricotta cheese + minced mushrooms over a pesto sauce topped with fontina cheese
-                  $9.95</li>
-                  <li>Vegetable Napoleon
-                  layered with grilled zucchini, eggplant, mushroom + roasted pepper in a roasted tomato sauce, topped with muenster cheese $9.95</li>
-                  <li>Spring Rolls
-                  stuffed with cabbage, bok choy, + carrots, served with sweet chili dipping sauce
-                  $8.95</li>
-                  <li>Fried Calamari
-                  served with chef's signature espresso-soy reduction
-                  $11.95</li>
-                  <li>Grilled Eggplant Rollatini
-                  stuffed with goat cheese + arugula, topped with diced tomato + parmesan cheese, finished with a drizzle of sun-dried tomato oil
-                  $9.95</li>
-                  <li>Coconut Shrimp
-                  served over grilled pineapple with a piña colada sauce
-                  $11.95</li>
-                  <li>Crab Martini
-                  layered with mango, crabmeat + avocado with a honey, lime, cilantro dressing
-                  $11.95</li>
-                  <li>Duck & Scallion Rolls
-                  served with a blood orange, hoisin, balsamic dipping sauce
-                  $9.95</li>
-                  <li>Clams
-                  saut&eacute;ed with roasted tomatoes in a white wine-pancetta sauce
-                  $13.95</li>
-                  <li>Whole Portobello
-                  layered with asparagus, roasted peppers + shredded gorgonzola cheese with a roasted tomato sauce
-                  $12.95</li>
+                <li><label>HOME MADE CREPES</label>
+                  filled with ricotta cheese + minced mushrooms over a pesto sauce topped with fontina cheese<br>
+                <span>$9.95</span></li>
+
+                <li><label>VEGETABLE NAPOLEON</label>
+                  layered with grilled zucchini, eggplant, mushroom + roasted pepper in a roasted tomato sauce, topped with muenster cheese<br>
+                <span>$8.95</span></li>
+
+                <li><label>SPRING ROLLS</label>
+                  stuffed with cabbage, bok choy, + carrots, served with sweet chili dipping sauce<br>
+                <span>$11.95</span></li>
+
+                <li><label>FRIED CALAMARI</label>
+                  served with chef&#39;s signature espresso-soy reduction<br>
+                <span>$9.95</span></li>
+
+                <li><label>GRILLED EGGPLANT ROLLATINI</label>
+                  stuffed with goat cheese + arugula, topped with diced tomato + parmesan cheese, finished with a drizzle of sun-dried tomato oil<br>
+                <span>$11.95</span></li>
+
+                <li><label>COCONUT SHRIMP</label>
+                  served over grilled pineapple with a piña colada sauce<br>
+                <span>$11.95</span></li>
+
+                <li><label>CRAB MARTINI</label>
+                  layered with mango, crabmeat + avocado with a honey, lime, cilantro dressing<br>
+                <span>$9.95</span></li>
+
+                <li><label>DUCK + SCALLION ROLLS</label>
+                  stuffed with cabbage, bok choy, + carrots, served with sweet chili dipping sauce<br>
+                <span>$13.95</span></li>
+
+                <li><label>CLAMS</label>
+                  sautéed with roasted tomatoes in a white wine-pancetta sauce<br>
+                <span>$12.95</span></li>
+
+                <li><label>WHOLE PORTOBELLO</label>
+                  layered with asparagus, roasted peppers + shredded gorgonzola cheese with a roasted tomato sauce<br>
+                <span>$12.95</span></li>
+
                 </ul>
             </div>
 
             <div class="entrees group">
-              <label>Entr&eacute;es</label>
+              <label>ENTREES</label>
               <ul class="group">
-                <li><label>Veal Cannellini</label>
-                veal scaloppini stuffed with cannellini bean puree in a lemon, butter, sage sauce
-                $19.95</li>
-                <li><label>Veal Muffaletta</label>
-                veal scaloppini layered with spinach, ricotta + a thin slice of prosciutto
-                saut&eacute;ed in a dijon mustard cream sauce
-                $19.95</li>
-                <li><label>Veal Chop</label>
-                bone-in veal chop, pan seared in a white wine, sage, truffle-oil sauce
-                topped with shredded parmesan cheese
-                $29.95</li>
-                <li><label>Meat Medley</label>
-                chicken, filet mignon + slices of sweet Italian sausage, with mushrooms + potatoes in white wine, garlic, rosemary, lemon + red wine vinegar
-                $20.95</li>
-                <li><label>Chicken Affumicate</label>
-                breast of chicken layered with grilled eggplant, smoked mozzarella + tomato in a lemon, white wine sauce
-                $18.95</li>
-                <li><label>Hawaiian Chicken</label>
-                chicken breast over grilled pineapple, in a champagne cream sauce
-                $18.95</li>
-                <li><label>Bittersweet Chicken</label>
-                chicken breast, pan seared with kalamata olives, grapes + onions in a red, vermouth sauce
-                $18.95</li>
-                <li><label>Pork Chop Diablo</label>
-                pan seared with hot cherry peppers in a champagne, vinegar sauce
-                $22.95</li>
-                <li><label>Pork Milanese</label>
-                pork cutlets encrusted with panko breadcrumbs dressed with a hoisin, balsamic glaze
-                $20.95</li>
-                <li><label>Filet Mignon Au Poivre</label>
-                black pepper encrusted filet mignon (8 oz.) in a Scotch, mustard cream sauce, served over buttered crostinis
-                $31.95</li>
-                <li><label>Chef's Surf & Turf Twist</label>
-                medallions of filet mignon stuffed with lobster meat + pan seared in a champagne, butter sauce
-                $34.95</li>
-                <li><label>Salmon&eacute;</label>
-                potato encrusted salmon in a roasted tomato, mascarpone cheese sauce
-                $20.95</li>
+                <li><label>VEAL CANNELLINI</label>
+                  veal scaloppini stuffed with cannellini bean puree in a lemon, butter, sage sauce<br>
+                <span>$19.95</span></li>
+
+                <li><label>VEAL MUFFALETTA</label>
+                  veal scaloppini layered with spinach, ricotta + a thin slice of prosciutto sauteed in a dijon mustard sauce<br>
+                <span>$19.95</span></li>
+
+                <li><label>VEAL CHOP</label>
+                  bone-in veal chop, pan seared in a white wine, sage, truffle-oil sauce topped with shreaded paresean cheese<br>
+                <span>$29.95</span></li>
+
+                <li><label>MEAT MEDLEY</label>
+                  chicken, filet mignon + slices of sweet Italian sausage, with mushrooms + potatoes in white wine, garlic, rosemary, lemon + red wine vinegar<br>
+                <span>$20.95</span></li>
+
+                <li><label>GRILLED EGGPLANT ROLLATINI</label>
+                  stuffed with goat cheese + arugula, topped with diced tomato + parmesan cheese, finished with a drizzle of sun-dried tomato oil<br>
+                <span>$11.95</span></li>
+
+                <li><label>CHICKEN AFFUMICATE</label>
+                  breast of chicken layered with grilled eggplant, smoked mozzarella + tomato in a lemon, white wine sauce<br>
+                <span>$18.95</span></li>
+
+                <li><label>HAWAIIAN CHICKEN</label>
+                  chicken breast over grilled pineapple, in a champagne cream sauce<br>
+                <span>$18.95</span></li>
+
+                <li><label>BITTERSWEET CHICKEN</label>
+                  chicken breast, pan seared with kalamata olives, grapes + onions in a red, vermouth sauce<br>
+                <span>$18.95</span></li>
+
+                <li><label>PORK CHOP DIABLO</label>
+                  pan seared with hot cherry peppers in a champagne, vinegar sauce<br>
+                <span>$22.95</span></li>
+
+                <li><label>PORK MILANESE</label>
+                  pork cutlets encrusted with panko breadcrumbs dressed with a hoisin, balsamic glaze<br>
+                <span>$20.95</span></li>
+
+                <li><label>FILET MIGNON AU POIVRE</label>
+                  black pepper encrusted filet mignon (8 oz.) in a Scotch, mustard cream sauce, served over buttered crostinis<br>
+                <span>$31.95</span></li>
+
+                <li><label>CHEF’S SURF + TURF TWIST</label>
+                  medallions of filet mignon stuffed with lobster meat + pan seared in a champagne, butter sauce<br>
+                <span>$34.95</span></li>
+
+                <li><label>SALMONE</label>
+                  Potato encrusted salmon in a roasted tomato, marscapone cheese sauce<br>
+                <span>$20.95</span></li>
+
                 <li><label>Sole</label>
-                filet of sole pan seared with clams, shitake mushrooms + cuttlefish in a white wine butter sauce
-                $22.95</li>
-                <li><label>Linguini Fra Diavolo</label>
-                In a spicy tomato sauce with saut&eacute;ed calamari, shrimp + clams
-                $20.95</li>
-                <li><label>Black Ink Linguini</label>
-                squid ink linguini in a pesto, cream, + tomato sauce with saut&eacute;ed shrimp
-                $20.95</li>
-                <li><label>Penne + Sausage</label>
-                penne with sliced sweet Italian sausage, hot cherry peppers, grilled eggplant, + plum tomato in garlic + oil
-                $19.95</li>
+                  Fillet of sole pan seared with clams, shiitake mushrooms + cuttlefish in a white wine butter sauce<br>
+                <span>$22.95</span></li>
+
+                <li><label>LINGUINI FRA DIAVLO</label>
+                  in a spicy tomato sauce with sauteed calamari, shimp +clams<br>
+                <span>$20.95</span></li>
+
+                <li><label>BLACK INK LINGUINI</label>
+                  squid ink linguini in a pesto cream + tomato sauce with sauteed shrimp<br>
+                <span>$20.95</span></li>
+
+                <li><label>PENNNE + SAUSAGE</label>
+                  penne with sliced sweet italian sausage, hot cherry peppers, grilled eggplane + plum tomato in garlic + oil<br>
+                <span>$19.95</span></li>
               </ul>
             </div>
+            <div class="desserts group">
+              <label>HOMEMADE DESSERTS</label>
+              <ul class="group">
+                <li><label>TIRAMISU</label><br>
+                <span>$8</span></li>
 
+                <li><label>ITALIAN CHEESECAKE</label><br>
+                <span>$8</span></li>
+
+                <li><label>TIRAMISU</label><br>
+                <span>$8</span></li>
+
+                <li><label>SEVEN LAYER COOKIES</label><br>
+                <span>$8</span></li>
+
+                <li><label>PEANUT BUTTER CHOCOLATE CAKE</label><br>
+                <span>$8</span></li>
+
+                <li><label>PISTACHIO WALNUT CAKE</label><br>
+                <span>$8</span></li>
+
+                <li><label>PECAN PIE</label><br>
+                <span>$8</span></li>
+
+                <li><label>TARTUFO</label><br>
+                <span>$7</span></li>
+
+                <li><label>SORBET</label>(Lemon, Orange or Coconut)<br>
+                <span>$7</span></li>
+
+                <li><label>TORTONI</label><br>
+                <span>$5</span></li>
+
+
+              </ul>
+            </div>
           </div>
 
-          <div id="gallery" class="incative">
-            <img height="300px" src="" alt="lol" />
-            <img height="300px" src="" alt="lol" />
-            <img height="300px" src="" alt="lol" />
-            <img height="300px" src="" alt="lol" />
-            <img height="300px" src="" alt="lol" />
-            <img height="300px" src="" alt="lol" />
-            <img height="300px" src="" alt="lol" />
-            <img height="300px" src="" alt="lol" />
+          <div id="gallery" class="incative group">
+            <img src="" alt="lol" />
+            <img src="" alt="lol" />
+            <img src="" alt="lol" />
+            <img src="" alt="lol" />
+            <img src="" alt="lol" />
+            <img src="" alt="lol" />
+            <img src="" alt="lol" />
+            <img src="" alt="lol" />
           </div>
 
           <div id="contact" class="incative">
@@ -237,13 +303,13 @@
 
         </div>
 
-        <footer>
-          <nav>
-            This is the footer.
-          </nav>
-        </footer>
-
       </div>
+
+      <footer>
+        <nav>
+          Bin 5
+        </nav>
+      </footer>
 
     </body>
 </html>
