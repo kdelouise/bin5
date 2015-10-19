@@ -29,6 +29,7 @@ ul {
 }
 /* Clearfix */
 .group:after {
+  padding-left: 10px;
   content: "";
   display: block;
   clear: both;
@@ -88,24 +89,26 @@ body {
 }
 #menu {
   padding: 20px 0;
-  max-width: 900px;
-  margin: auto;
-}
-#menu label {
-  font-size: 25px;
-  display: block;
+  max-width: 87%;
+  margin: 0 auto;
   text-align: center;
 }
-#menu li label {
-  font-size: 20px;
-  text-align: left;
+#menu .menu-section-items {
+  padding-left: 6.45%;
 }
-#menu li {
-  padding-top: 10px;
-  height: 100px;
-  width: 240px;
+#menu label {
+  font-size: 30pt;
+  display: block;
+}
+#menu .one-third-item {
   float: left;
-  padding: 10px;
+  height: 150px;
+  width: 25%;
+  padding: 0 3%;
+  font-size: 11pt;
+}
+#menu .one-third-item label {
+  font-size: 15pt;
 }
 #gallery {
   padding: 20px 0;
@@ -210,4 +213,7 @@ h2 {
 }
 a {
   color: grey;
+}
+.topbreak {
+  margin-top: 100px;
 }
