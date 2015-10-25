@@ -117,6 +117,9 @@ body {
   font-weight: normal;
   margin-bottom: 10px;
 }
+#menu .cocktail .one-third-item {
+  height: 210px;
+}
 #gallery {
   padding: 20px 0;
   max-width: 695px;

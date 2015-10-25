@@ -5,11 +5,12 @@
 
       <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
       <link rel="stylesheet" href="css/fontface.css" media="screen" title="no title" charset="utf-8">
-
       <script src="vendor/jquery-2.1.3.min.js"></script>
       <script src="vendor/parallax.min.js"></script>
       <script src="js/site.js"></script>
       <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAusAkZBuQxzyU67aCIYaW82oxXXj-1rUU"></script>
+
+<!-- :::START::: Do Not Remove - For Google Map API-->
 
       <script type="text/javascript">
         function initialize() {
@@ -33,6 +34,8 @@
         }
         google.maps.event.addDomListener(window, 'click', initialize);
       </script>
+
+<!-- ::: END ::: Do Not Remove - For Google Map API-->
 
     </head>
 
@@ -87,10 +90,10 @@
             <div class="topbreak"></div>
             <div class="download-menus">
               <!-- will download as "cccc.pdf" -->
-              <a href="dowloads/menu_cocktails.pdf" download>Download Menu</a>
+              <a href="/downloads/menu_cocktails.pdf" download="menu_cocktails.pdf"> Download Menu </a>
 
             </div>
-
+<!--::: START ::: Menu - Starters -->
             <div class="starters menu-section group">
               <label>{ STARTERS }</label>
               <ul class="menu-section-items">
@@ -132,6 +135,11 @@ parmesan | <span>13</span></li>
                   hearts of palm | roasted pepper | celery | olive | white bean | citrus oil | <span>14</span></li>
               </ul>
             </div>
+
+<!--::: END ::: Menu - Starters -->
+
+<!--::: START ::: Menu - Mains -->
+
             <div class="mains menu-section group">
               <label>{ MAINS }</label>
               <ul class="menu-section-items">
@@ -174,6 +182,53 @@ parmesan risotto | crostini | asparagus | <span>33</span></li>
               </ul>
             </div>
 
+<!--::: END ::: Menu - Mains -->
+
+<!--::: START ::: Menu - Cocktails -->
+
+            <div class="cocktails menu-section group">
+              <label>{ COCKTAILS }</label>
+              <ul class="menu-section-items cocktail">
+                <li class="one-third-item"><label>SAN REMO</label>
+                  Martini + Rossi Sweet Vermouth | Maker's Mark Bourbon | Campari | St. Germain | orange juice | fresh lime juice <br>
+                  <em>This aperitif, adopted from Scott Conant's 'Scareptta' restaurant is a Bin 5 favorite</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>AIRMAIL</label>
+                  Bacardi white rum | lime | honey syrup | prosecco<br>
+                  <em>Created by David Embury, this refreshing summer drink "ought to make you fly high"</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>BIN 5 MOJITO</label>
+                  Bacardi White Rum | lime | mint | angostura<br>
+                  <em>The touch of Angostura, as advised by Phil Ward of the famous craft cocktail bar Death + Co., is the perfect finish to this already spectacular summer favorite</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>IRISH JIG</label>
+                  Jameson Irish Whiskey | yellow chartreuse | basil | lemon <br>
+                  <em>Invented by Jim Meehan of NYC's famous PDT, this one is a lot of fun and makes great use of yellow chartreuse</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>BIN 5 MARGARITA</label>
+                  Patron Silver Tequila | lime | Cointreau | agave nectar<br>
+                  <em>A spin on the classic sidecar cocktail, this traditional sour is simple and beautiful</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>MOSCOW MULE</label>
+                  Bivi Sicilian Vodka | ginger | club soda, | fresh lime <br>
+                  <em>Spicy, refreshing, tart, and sweet, this variation of the mule will have you kicking</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>FOXEYE</label>
+                  Martini Rossi | The Botanist Gin | Fernet Branca | Amaretto Disaronno <br>
+                  <em>A spin on the 'Hanky Panky' cocktail, invented by Ada Coleman at the Savoy's American bar in London, this will satisfy any fan of the traditional Negroni</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>STRANAHAN'S DIAMOND MANHATTAN</label>
+                  Stranahan's Colorado Whiskey | Martini + Rossi Sweet Vermouth | Dashfire Brandy Bitters<br>
+                  <em>We take the new, diamond version of this great American whiskey and celebrate it with Italian, sweet vermouth and some truly special, artisanal bitters </em> | <span>18</span></li>
+
+                <li class="one-third-item"><label>BIN 5 COSMOPOLITIAN</label>
+                  Grey Goose Vodka | lime | Cointreau | cranberry <br>
+                  <em>Dale DeGroff perfected this classic in NYC's Rainbow Room. We make it exactly according to his specifications. Finished with an expressed orange twist</em> | <span>12</span></li>
+
+              </ul>
+            </div>
+
+<!--::: END ::: Menu - Cocktails -->
 
           </div>
 
