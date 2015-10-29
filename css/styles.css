@@ -196,6 +196,14 @@ header nav ul li {
 header nav ul li:hover {
   border-bottom: 3px solid white;
 }
+#social-main {
+  position: fixed;
+  top: 100;
+  z-index: 1;
+}
+#social-main .social {
+  display: block;
+}
 /***********************/
 footer {
   font-size: 1em;
