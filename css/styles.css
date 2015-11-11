@@ -141,14 +141,18 @@ body {
   margin: auto;
 }
 #contact .contact-info_section {
+  text-align: center;
   width: 23%;
+  font-size: .9em;
+  line-height: 1.5em;
+  margin-right: 2%;
+}
+#contact .contact-info_section .contact-title {
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 #contact .contact-info_section .address {
-  line-height: 18px;
   margin-bottom: 20px;
-}
-#contact .contact-info_section .hours li label {
-  width: 100px ;
 }
 #contact #map-canvas {
   height: 400px;
