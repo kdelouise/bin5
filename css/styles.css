@@ -81,11 +81,17 @@ body {
   font-weight: 500;
 }
 .second {
-  margin: 50 auto;
-  width: 43%;
+  font-size: 1.5em;
+  margin: 70 auto;
+  width: 57%;
   height: 500px;
   text-align: left;
   color: black;
+}
+.second .home_label {
+  margin: 20px;
+  font-size: 0.3 em;
+  font-weight: bold;
 }
 #menu {
   padding: 20px 0;
@@ -120,8 +126,12 @@ body {
   font-weight: normal;
   margin-bottom: 10px;
 }
-#menu .cocktail .one-third-item {
-  height: 210px;
+#menu .cocktails {
+  clear: both;
+  margin-bottom: 180px;
+}
+#menu .cocktails .one-third-item {
+  height: 250px;
 }
 #gallery {
   padding: 20px 0;
@@ -183,7 +193,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 10000;
-  font-size: 1em;
+  font-size: 1.2em;
   background: black;
   height: 55px;
 }
