@@ -24,7 +24,7 @@ header {
   width:100%;
   position:fixed;
   z-index: 10000;
-  font-size:1.2em;
+  font-size:1.2qem;
   background: black;
   height:55px;
   img{
@@ -95,3 +95,43 @@ a {
 .topbreak{
   margin-top: 100px;
 }
+
+
+/*************************/
+
+
+/* Large Devices, Wide Screens */
+   @media only screen and (max-width : 1200px) {
+
+   }
+
+   /* Medium Devices, Desktops */
+   @media only screen and (max-width : 992px) {
+
+   }
+
+   /* Small Devices, Tablets */
+   @media only screen and (max-width : 768px) {
+
+   }
+
+   /* Extra Small Devices, Phones */
+   @media only screen and (max-width : 480px) {
+
+   }
+
+   /* Custom, iPhone Retina */
+   @media only screen and (max-width : 320px) {
+     header {
+       height:300px;
+       img{
+         width: 40%;
+       }
+       nav{
+         li{
+           font-weight: normal;
+           font-size: 8em;
+           }
+       }
+     }
+   }

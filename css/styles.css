@@ -81,18 +81,24 @@ body {
   font-weight: 500;
 }
 .second {
-  font-size: 1.5em;
+  line-height: 150%;
+  font-size: 1.3em;
   margin: 70 auto;
-  width: 57%;
+  width: 53%;
   height: 500px;
   text-align: left;
   color: black;
 }
 .second .home_label {
-  margin: 20px;
-  font-size: 0.3 em;
+  margin-bottom: 10px;
+  font-size: .75em;
   font-weight: bold;
 }
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 #menu {
   padding: 20px 0;
   max-width: 77%;
@@ -193,7 +199,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 10000;
-  font-size: 1.2em;
+  font-size: 1.2qem;
   background: black;
   height: 55px;
 }
@@ -257,4 +263,22 @@ a {
 }
 .topbreak {
   margin-top: 100px;
+}
+/*************************/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  header {
+    height: 300px;
+  }
+  header img {
+    width: 40%;
+  }
+  header nav li {
+    font-weight: normal;
+    font-size: 8em;
+  }
 }
