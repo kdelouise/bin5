@@ -1,0 +1,170 @@
+/********Global Styles********/
+
+html, body {
+  min-height: 100%; /* DO NOT CHANGE */
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.incative {
+  display: none;
+}
+
+.wrapper {
+  min-height: 100%; /* DO NOT CHANGE */
+  margin-bottom: -50px; /* height of footer */
+}
+
+.content {
+  padding-bottom: 50px; /* height of footer */
+}
+
+/***********************/
+
+header {
+  width:100%;
+  position:fixed;
+  z-index: 10000;
+  font-size:1.1em;
+  background: black;
+  height:55px;
+  img{
+    width: 8.5%;
+    margin-bottom:10px;
+  }
+  nav{
+    max-width:95%;
+    margin: auto;
+    ul{
+      margin-top:10px;
+    li{
+      font-weight:100;
+      margin: 0 10;
+      padding-bottom:10px;
+      color: white;
+      cursor: pointer;
+      display: inline;
+        &:hover{
+          border-bottom:3px solid white;
+        }
+      }
+    }
+  }
+}
+
+#social-main{
+  position: fixed;
+  top: 200;
+  z-index: 1;
+  .social{
+    display: block;
+  }
+}
+/***********************/
+
+footer {
+  font-size: 1em;
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  nav{
+    padding: 10px;
+    color: #ffffff;
+    height: 30px;
+    max-width: 90%;
+    margin: auto;
+      &:before{
+        content:"\00a9 ";
+      }
+  }
+}
+
+/***********************/
+
+h2 {
+  backgounrd: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+a {
+  color: grey;
+}
+
+.topbreak{
+  margin-top: 100px;
+}
+
+
+/*************************/
+
+
+/* Large Devices, Wide Screens */
+   @media only screen and (max-width : 1200px) {
+
+   }
+
+   /* Medium Devices, Desktops */
+   @media only screen and (max-width : 992px) {
+
+   }
+
+   /* Small Devices, Tablets */
+   @media only screen and (max-width : 768px) {
+
+   }
+
+   /* Extra Small Devices, Phones */
+   @media only screen and (max-width : 480px) {
+     header {
+       height:48px;
+       img{
+         margin-top:3px;
+         width: 22%;
+       }
+       nav{
+         ul{
+           margin-top:7px;
+         li{
+           margin: 0 5;
+           font-weight: normal;
+           font-size: 0.7em;
+           }
+         }
+       }
+     }
+     #social-main{
+       top: 100;
+       .social{
+         width:90%;
+       }
+     }
+   }
+
+   /* Custom, iPhone Retina */
+   @media only screen and (max-width : 320px) {
+     header {
+       height:48px;
+       img{
+         margin-top:3px;
+         width: 22%;
+       }
+       nav{
+         ul{
+           margin-top:7px;
+         li{
+           margin: 0 5;
+           font-weight: normal;
+           font-size: 0.7em;
+           }
+         }
+       }
+     }
+     #social-main{
+       top: 100;
+       .social{
+         width:70%;
+       }
+     }
+   }

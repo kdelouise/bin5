@@ -47,28 +47,28 @@ body {
 .right {
   float: right;
 }
-.first {
+#about .first {
   height: 500px;
 }
-.home-img_text1 {
+#about .home-img_text1 {
   position: absolute;
   background: white;
   top: 150px;
   left: 75px;
   font-size: 40px;
   letter-spacing: 4px;
-  width: 33%;
+  width: 25%;
   padding: 10 30;
   font-weight: 700;
 }
-.home-img_text1 .home-img_subtext {
+#about .home-img_text1 .home-img_subtext {
   vertical-align: 30%;
   letter-spacing: 4px;
   font-weight: 200;
   font-size: 20px;
   margin-bottom: 10px;
 }
-.home-img_text2 {
+#about .home-img_text2 {
   position: absolute;
   background: white;
   top: 260;
@@ -80,7 +80,7 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
-.second {
+#about .second {
   line-height: 150%;
   font-size: 1.3em;
   margin: 70 auto;
@@ -89,7 +89,7 @@ body {
   text-align: left;
   color: black;
 }
-.second .home_label {
+#about .second .home_label {
   margin-bottom: 10px;
   font-size: .75em;
   font-weight: bold;
@@ -97,8 +97,125 @@ body {
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #about .first {
+    height: 425px;
+  }
+  #about .home-img_text1 {
+    top: 100;
+    left: 20%;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    width: 50%;
+    padding: 6 20;
+  }
+  #about .home-img_text1 .home-img_subtext {
+    vertical-align: 30%;
+    font-weight: 200;
+    font-size: .8em;
+    margin-bottom: 10px;
+  }
+  #about .home-img_text2 {
+    background: white;
+    top: 165;
+    left: 20%;
+    width: 50%;
+    padding: 6 20;
+    font-size: .7em;
+    font-weight: 500;
+  }
+  #about .second {
+    line-height: 150%;
+    font-size: .9em;
+    margin: 70 auto;
+    width: 75%;
+    height: 200px;
+  }
+  #about .second .home_label {
+    margin-bottom: 10px;
+    font-size: .75em;
+  }
+}
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #about .first {
+    height: 425px;
+  }
+  #about .home-img_text1 {
+    top: 100;
+    left: 20%;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    width: 50%;
+    padding: 6 20;
+  }
+  #about .home-img_text1 .home-img_subtext {
+    vertical-align: 30%;
+    font-weight: 200;
+    font-size: .8em;
+    margin-bottom: 10px;
+  }
+  #about .home-img_text2 {
+    background: white;
+    top: 165;
+    left: 20%;
+    width: 50%;
+    padding: 6 20;
+    font-size: .7em;
+    font-weight: 500;
+  }
+  #about .second {
+    line-height: 150%;
+    font-size: .9em;
+    margin: 70 auto;
+    width: 75%;
+    height: 200px;
+  }
+  #about .second .home_label {
+    margin-bottom: 10px;
+    font-size: .75em;
+  }
+}
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  #about .first {
+    height: 425px;
+  }
+  #about .home-img_text1 {
+    top: 100;
+    left: 20%;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    width: 50%;
+    padding: 6 20;
+  }
+  #about .home-img_text1 .home-img_subtext {
+    vertical-align: 30%;
+    font-weight: 200;
+    font-size: .8em;
+    margin-bottom: 10px;
+  }
+  #about .home-img_text2 {
+    background: white;
+    top: 165;
+    left: 20%;
+    width: 50%;
+    padding: 6 20;
+    font-size: .7em;
+    font-weight: 500;
+  }
+  #about .second {
+    line-height: 150%;
+    font-size: .9em;
+    margin: 70 auto;
+    width: 75%;
+    height: 200px;
+  }
+  #about .second .home_label {
+    margin-bottom: 10px;
+    font-size: .75em;
+  }
+}
 #menu {
   padding: 20px 0;
   max-width: 77%;
@@ -199,7 +316,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 10000;
-  font-size: 1.2qem;
+  font-size: 1.1em;
   background: black;
   height: 55px;
 }
@@ -269,16 +386,50 @@ a {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  header {
+    height: 48px;
+  }
+  header img {
+    margin-top: 3.5px;
+    width: 19.5%;
+  }
+  header nav ul {
+    margin-top: 7px;
+  }
+  header nav ul li {
+    margin: 0 5;
+    font-weight: normal;
+    font-size: 0.65em;
+  }
+  #social-main {
+    top: 100;
+  }
+  #social-main .social {
+    width: 90%;
+  }
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   header {
-    height: 300px;
+    height: 48px;
   }
   header img {
-    width: 40%;
+    margin-top: 3px;
+    width: 22%;
   }
-  header nav li {
+  header nav ul {
+    margin-top: 7px;
+  }
+  header nav ul li {
+    margin: 0 5;
     font-weight: normal;
-    font-size: 8em;
+    font-size: 0.65em;
+  }
+  #social-main {
+    top: 100;
+  }
+  #social-main .social {
+    width: 70%;
   }
 }

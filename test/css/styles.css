@@ -1,0 +1,357 @@
+html,
+head,
+body,
+header,
+nav,
+h1,
+a,
+ul,
+li,
+main,
+section,
+p,
+footer,
+small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+ul {
+  list-style: none;
+}
+/* Clearfix */
+.group:after {
+  padding-left: 10px;
+  content: "";
+  display: block;
+  clear: both;
+}
+/*******************************************/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+#about .first {
+  height: 500px;
+}
+#about .home-img_text1 {
+  position: absolute;
+  background: white;
+  top: 150px;
+  left: 75px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  width: 25%;
+  padding: 10 30;
+  font-weight: 700;
+}
+#about .home-img_text1 .home-img_subtext {
+  vertical-align: 30%;
+  letter-spacing: 4px;
+  font-weight: 200;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#about .home-img_text2 {
+  position: absolute;
+  background: white;
+  top: 260;
+  left: 75;
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 33%;
+  padding: 15 30;
+  font-size: 15px;
+  font-weight: 500;
+}
+#about .second {
+  line-height: 150%;
+  font-size: 1.3em;
+  margin: 70 auto;
+  width: 53%;
+  height: 500px;
+  text-align: left;
+  color: black;
+}
+#about .second .home_label {
+  margin-bottom: 10px;
+  font-size: .75em;
+  font-weight: bold;
+}
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  #about .first {
+    height: 425px;
+  }
+  #about .home-img_text1 {
+    top: 100;
+    left: 20%;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    width: 50%;
+    padding: 6 20;
+  }
+  #about .home-img_text1 .home-img_subtext {
+    vertical-align: 30%;
+    font-weight: 200;
+    font-size: .8em;
+    margin-bottom: 10px;
+  }
+  #about .home-img_text2 {
+    background: white;
+    top: 165;
+    left: 20%;
+    width: 50%;
+    padding: 6 20;
+    font-size: .7em;
+    font-weight: 500;
+  }
+  #about .second {
+    line-height: 150%;
+    font-size: .9em;
+    margin: 70 auto;
+    width: 75%;
+    height: 200px;
+  }
+  #about .second .home_label {
+    margin-bottom: 10px;
+    font-size: .75em;
+  }
+}
+#menu {
+  padding: 20px 0;
+  max-width: 77%;
+  margin: 0 auto;
+  text-align: center;
+}
+#menu .download-menus {
+  height: 30px;
+}
+#menu .menu-section-items {
+  padding-left: 11.54%;
+}
+#menu label {
+  font-size: 21pt;
+  margin-bottom: 20px;
+  font-weight: bold;
+  display: block;
+}
+#menu .one-third-item {
+  float: left;
+  height: 150px;
+  width: 23%;
+  padding: 0 3%;
+  font-size: 11pt;
+}
+#menu .one-third-item span {
+  font-weight: bold;
+}
+#menu .one-third-item label {
+  font-size: 13pt;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+#menu .cocktails {
+  clear: both;
+  margin-bottom: 180px;
+}
+#menu .cocktails .one-third-item {
+  height: 250px;
+}
+#gallery {
+  padding: 20px 0;
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#gallery img {
+  display: inline-block;
+  height: 300px;
+  margin: 7px;
+}
+#contact {
+  padding: 20px 0;
+  max-width: 80%;
+  margin: auto;
+}
+#contact .contact-info_section {
+  text-align: center;
+  width: 23%;
+  font-size: .9em;
+  line-height: 1.5em;
+  margin-right: 2%;
+}
+#contact .contact-info_section .contact-title {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+#contact .contact-info_section .address {
+  margin-bottom: 20px;
+}
+#contact #map-canvas {
+  height: 400px;
+  width: 800px;
+}
+/********Global Styles********/
+html,
+body {
+  min-height: 100%;
+  /* DO NOT CHANGE */
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.incative {
+  display: none;
+}
+.wrapper {
+  min-height: 100%;
+  /* DO NOT CHANGE */
+  margin-bottom: -50px;
+  /* height of footer */
+}
+.content {
+  padding-bottom: 50px;
+  /* height of footer */
+}
+/***********************/
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  font-size: 1.1em;
+  background: black;
+  height: 55px;
+}
+header img {
+  width: 8.5%;
+  margin-bottom: 10px;
+}
+header nav {
+  max-width: 95%;
+  margin: auto;
+}
+header nav ul {
+  margin-top: 10px;
+}
+header nav ul li {
+  font-weight: 100;
+  margin: 0 10;
+  padding-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  display: inline;
+}
+header nav ul li:hover {
+  border-bottom: 3px solid white;
+}
+#social-main {
+  position: fixed;
+  top: 200;
+  z-index: 1;
+}
+#social-main .social {
+  display: block;
+}
+/***********************/
+footer {
+  font-size: 1em;
+  position: absolute;
+  width: 100%;
+  background-color: black;
+}
+footer nav {
+  padding: 10px;
+  color: #ffffff;
+  height: 30px;
+  max-width: 90%;
+  margin: auto;
+}
+footer nav:before {
+  content: "\00a9 ";
+}
+/***********************/
+h2 {
+  backgounrd: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+a {
+  color: grey;
+}
+.topbreak {
+  margin-top: 100px;
+}
+/*************************/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  header {
+    height: 48px;
+  }
+  header img {
+    margin-top: 3px;
+    width: 22%;
+  }
+  header nav ul {
+    margin-top: 7px;
+  }
+  header nav ul li {
+    margin: 0 5;
+    font-weight: normal;
+    font-size: 0.7em;
+  }
+  #social-main {
+    top: 100;
+  }
+  #social-main .social {
+    width: 90%;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  header {
+    height: 48px;
+  }
+  header img {
+    margin-top: 3px;
+    width: 22%;
+  }
+  header nav ul {
+    margin-top: 7px;
+  }
+  header nav ul li {
+    margin: 0 5;
+    font-weight: normal;
+    font-size: 0.7em;
+  }
+  #social-main {
+    top: 100;
+  }
+  #social-main .social {
+    width: 70%;
+  }
+}

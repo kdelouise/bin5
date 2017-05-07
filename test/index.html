@@ -1,0 +1,317 @@
+<html>
+
+    <head>
+      <title>Bin 5 Restaurant - SI, NY</title>
+      <meta name="viewport" content="width=device-width" />
+      <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="css/fontface.css" media="screen" title="no title" charset="utf-8">
+      <script src="vendor/jquery-2.1.3.min.js"></script>
+      <script src="vendor/parallax.min.js"></script>
+      <script src="js/site.js"></script>
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAusAkZBuQxzyU67aCIYaW82oxXXj-1rUU"></script>
+
+<!-- :::START::: Do Not Remove - For Google Map API-->
+
+      <script type="text/javascript">
+        function initialize() {
+
+          var mapOptions = {
+            center: { lat: 40.613538, lng: -74.065335},
+            zoom: 13
+          };
+
+          var map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+
+          var LatLng = new google.maps.LatLng(40.613538, -74.065335)
+
+          var marker = new google.maps.Marker({
+              position: LatLng,
+              map: map,
+              title: 'Bin 5 Restaurant'
+          });
+
+        }
+        google.maps.event.addDomListener(window, 'click', initialize);
+      </script>
+
+<!-- ::: END ::: Do Not Remove - For Google Map API-->
+
+    </head>
+
+    <body>
+
+      <div class="wrapper group">
+
+        <header>
+          <nav class="nav">
+            <ul>
+              <li class="about"><img class="logo_white left about" src="img/logo_white_small.svg"></li>
+            </ul>
+            <ul class="right">
+              <li class="about">ABOUT</li>
+              <li class="menu">MENU</li>
+              <li class="gallery">GALLERY</li>
+              <li class="contact">CONTACT</li>
+            </ul>
+          </nav>
+        </header>
+
+        <section id="social-main" class="social-mainicons">
+          <a class="" href="https://www.facebook.com/Bin-5-189800837736171/?fref=ts" target="-_blank"><img class="social" src="img/icons/facebook-main2.png"></a>
+          <a class="" href="https://instagram.com/bin5nyc" target="-_blank"><img class="social" src="img/icons/instagram-main2.png"></a>
+          <a href="http://www.yelp.com/biz/bin-5-staten-island" target="-_blank"><img class="social" src="img/icons/yelp-main2.png">
+          <a class="" href="http://whereyoueat.com/Bin-5--3394.html" target="-_blank"><img class="social" src="img/icons/whereyoueat-main2.png"></a>
+          <a class="" href="https://plus.google.com/106825731849143937803/about" target="-_blank"><img class="social" src="img/icons/googleplus-main2.png"></a>
+
+        </section>
+
+        <div class="content">
+
+          <div id="about">
+
+            <div class="parallax-window home-image" data-parallax="scroll" data-image-src="img/IMG_2478.JPG">
+              <div class="first">
+                <div class="home-img_text1">Bin 5
+                <span class="home-img_subtext"> | Boutique Street</span></div>
+              </div>
+              <div class="home-img_text2">
+                VOTED STATEN ISLAND'S BEST RESTAURANT 2015
+              </div>
+            </div>
+            <div class="second">
+              <p class="home_label">{ WHO WE ARE }</p>
+              Bin 5 is Michelin rated and named Staten Island's Best Restaurant of 2015, Bin 5 serves unique eats that push the boundaries of flavor and creativity . Coupled with an eclectic yet comfortable atmosphere and service that is on point as much as it is performative, Bin 5 is easily an establishment you can call a home away from home.
+            </div>
+          </div>
+
+          <div id="menu" class="incative">
+            <div class="topbreak"></div>
+            <div class="download-menus">
+              <!-- will download as "cccc.pdf" -->
+              <a class="right" href="/downloads/bq-street-menu_web.pdf" download="bq-street-menu_web.pdf"> Download Menu </a>
+
+            </div>
+            <div>
+              <img src="img/menus/bq-street-menu_web.png">
+            </div>
+<!--::: START ::: Menu - Starters -->
+            <!-- <div class="starters menu-section group">
+              <label>{ STARTERS }</label>
+              <ul class="menu-section-items">
+                <li class="one-third-item"><label>BURRATA</label>
+                  arugula | tomato | fennel | roasted pepper | <span>13</span></li>
+
+                <li class="one-third-item"><label>PORK BELLY TACO</label>
+                  bok choy slaw | espresso | soy | <span>13</span></li>
+
+                <li class="one-third-item"><label>FRIED CALAMARI</label>
+                  almond | pepperoncini aioli | roasted tomato sauce | <span>14</span></li>
+
+                <li class="one-third-item"><label>ARANCINI</label>
+                  roasted vegetables | arborio rice | honey | balsamic vinegar | parmesan | <span>12</span></li>
+
+                <li class="one-third-item"><label>LAMB POLPETTE</label>
+                  pita bread | feta cheese | tomato | cucumber | yogurt | mint | <span>13</span></li>
+
+                <li class="one-third-item"><label>HEARTS OF ROMAINE</label>
+                  anchiove | caper | lemon-mustard vinaigrette | shaved + crisp
+parmesan | <span>13</span></li>
+
+                <li class="one-third-item"><label>MIXED FIELD GREENS</label>
+                goat cheese | pistachio | blackberry | apple | <span>12</span></li>
+
+                <li class="one-third-item"><label>TUNA TARTARRE</label>
+                  avocado | mango | pickled ginger | wasabi | wakame salad | <span>13</span></li>
+
+                <li class="one-third-item"><label>BUTTERNUT SQUASH SOUP</label>
+                  crostini | autumn spice | creme fraiche | <span>12</span></li>
+
+                <li class="one-third-item"><label>ROASTED ASPARAGUS</label>
+                  yellow squash |  mushroom | red pepper | eggplant | arugula | <span>11</span></li>
+
+                <li class="one-third-item"><label>BIN 5 LITTLE NECK CLAMS OR MUSCLES</label>
+                  pancetta | roasted tomato broth | creamy polenta | <span>14</span></li>
+
+                <li class="one-third-item"><label>OCTOPUS</label>
+                  hearts of palm | roasted pepper | celery | olive | white bean | citrus oil | <span>14</span></li>
+              </ul>
+            </div> -->
+
+<!--::: END ::: Menu - Starters -->
+
+<!--::: START ::: Menu - Mains -->
+
+            <!-- <div class="mains menu-section group">
+              <label>{ MAINS }</label>
+              <ul class="menu-section-items">
+                <li class="one-third-item"><label>VEAL CHOP</label>
+                  grilled | sage | pancetta | mushroom |  demi-glace |  mashed potato | broccoli rabe | <span>34</span></li>
+
+                <li class="one-third-item"><label>BONELESS CORNISH HEN</label>
+                  roasted | stuffed | butternut squash | apple | fontina | pork belly demi-glace | mashed potato | kale | <span>24</span></li>
+
+                <li class="one-third-item"><label>PORK CHOP SCHNITZEL</label>
+                  pan-fried | arugula | pear | hazlenut | goat cheese | balsamic | <span>24</span></li>
+
+                <li class="one-third-item"><label>RACK OF LAMB</label>
+                  roasted | mustard | breadcrumb | potato | carrot | <span>36</span></li>
+
+                <li class="one-third-item"><label>DUCK BREAST</label>
+                  seared | fig | cherry | pear | carrot | mashed potato | <span>28</span></li>
+
+                <li class="one-third-item"><label>FILLET MINON MEDALIONS</label>
+                  grilled | green peppercorn | scotch | mustard | cream
+parmesan risotto | crostini | asparagus | <span>33</span></li>
+
+                <li class="one-third-item"><label>PARPADELLE</label>
+                filet mignon | mushroom | cognac | cream | basted egg | parmesan crisp | <span>22</span></li>
+
+                <li class="one-third-item"><label>AHI TUNA</label>
+                  seared rare | Japanese eggplant | baby bok choy | rice cake | miso | miran | wasabi | <span>30</span></li>
+
+                <li class="one-third-item"><label>SALMON</label>
+                  cedar plank | roasted root vegetable | <span>24</span></li>
+
+                <li class="one-third-item"><label>WHOLE STRIPED BASS</label>
+                  seared | fennel | tomato | potato | herbs | <span>28</span></li>
+
+                <li class="one-third-item"><label>MIXED SEAFOOD</label>
+                  pan-braised | monkfish | clams | mussels | shrimp | white seafood broth | <span>28</span></li>
+
+                <li class="one-third-item"><label>TOMOHAWK RIBEYE FOR TWO</label>
+                  grilled | asparagus | roasted potato | <span>90</span></li>
+              </ul>
+            </div> -->
+
+<!--::: END ::: Menu - Mains -->
+
+<!--::: START ::: Menu - Cocktails -->
+
+            <!-- <div class="cocktails menu-section group">
+              <label>{ COCKTAILS }</label>
+              <ul class="menu-section-items cocktail">
+                <li class="one-third-item"><label>SAN REMO</label>
+                  Martini + Rossi Sweet Vermouth | Maker's Mark Bourbon | Campari | St. Germain | orange juice | fresh lime juice <br>
+                  <em>This aperitif, adopted from Scott Conant's 'Scareptta' restaurant is a Bin 5 favorite</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>AIRMAIL</label>
+                  Bacardi white rum | lime | honey syrup | prosecco<br>
+                  <em>Created by David Embury, this refreshing summer drink "ought to make you fly high"</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>BIN 5 MOJITO</label>
+                  Bacardi White Rum | lime | mint | angostura<br>
+                  <em>The touch of Angostura, as advised by Phil Ward of the famous craft cocktail bar Death + Co., is the perfect finish to this already spectacular summer favorite</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>IRISH JIG</label>
+                  Jameson Irish Whiskey | yellow chartreuse | basil | lemon <br>
+                  <em>Invented by Jim Meehan of NYC's famous PDT, this one is a lot of fun and makes great use of yellow chartreuse</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>BIN 5 MARGARITA</label>
+                  Patron Silver Tequila | lime | Cointreau | agave nectar<br>
+                  <em>A spin on the classic sidecar cocktail, this traditional sour is simple and beautiful</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>MOSCOW MULE</label>
+                  Bivi Sicilian Vodka | ginger | club soda, | fresh lime <br>
+                  <em>Spicy, refreshing, tart, and sweet, this variation of the mule will have you kicking</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>FOXEYE</label>
+                  Martini Rossi | The Botanist Gin | Fernet Branca | Amaretto Disaronno <br>
+                  <em>A spin on the 'Hanky Panky' cocktail, invented by Ada Coleman at the Savoy's American bar in London, this will satisfy any fan of the traditional Negroni</em> | <span>12</span></li>
+
+                <li class="one-third-item"><label>STRANAHAN'S DIAMOND MANHATTAN</label>
+                  Stranahan's Colorado Whiskey | Martini + Rossi Sweet Vermouth | Dashfire Brandy Bitters<br>
+                  <em>We take the new, diamond version of this great American whiskey and celebrate it with Italian, sweet vermouth and some truly special, artisanal bitters </em> | <span>18</span></li>
+
+                <li class="one-third-item"><label>BIN 5 COSMOPOLITIAN</label>
+                  Grey Goose Vodka | lime | Cointreau | cranberry <br>
+                  <em>Dale DeGroff perfected this classic in NYC's Rainbow Room. We make it exactly according to his specifications. Finished with an expressed orange twist</em> | <span>12</span></li>
+
+              </ul>
+            </div> -->
+
+<!--::: END ::: Menu - Cocktails -->
+
+          </div>
+
+          <div id="gallery" class="incative group">
+            <div class="topbreak"></div>
+            <!-- Follow file naming convention capitalization -->
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_2354.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_2356.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_2191.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_2273.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1689.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_2282.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1594.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1600.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1601.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1606.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1614.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1626.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1586.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1692.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1790.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1795.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1806.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1894.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1903.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_2035.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_2047.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_2058.JPG"></a>
+            <a class="" href="#" target="-_blank"><img class="gallery-photo" src="img/pictures/IMG_1599.JPG"></a>
+          </div>
+
+          <div id="contact" class="incative">
+            <div class="topbreak"></div>
+            <section class="contact-info_section left">
+              <div class="address">
+                <ul>
+                  <li class="contact-title">
+                    <label>{ Contact Us }</label></li>
+                  <li>1233 Bay Street</li>
+                  <li>Staten Island, 10305</li>
+                  <li>718-448-7275</li>
+                </ul>
+              </div>
+              <div class="hours">
+              <ul>
+                <li class="contact-title">
+                  <label>{ Hours Of Operation }</label></li>
+                <li>
+                  <label>Lunch</label><br>
+                    Monday - Friday <br>
+                    11:00 - 4:00 <br>
+                </li>
+                <br>
+                <li>
+                  <label>Dinner</label><br>
+                    Monday - Thursday <br>
+                    4:00 - 10:00 <br>
+                    Friday - Saturday <br>
+                    4:00 - 11:00<br>
+                    Sunday <br>
+                    2:00 - 9:00 <br>
+                </li>
+             </ul>
+           </div>
+       </section>
+         <section class="google-map left">
+            <!-- <a href="#">Get Directions</a> -->
+            <div id="map-canvas"></div>
+         </section>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <footer>
+        <nav>
+          Bin 5
+        </nav>
+      </footer>
+
+    </body>
+</html>

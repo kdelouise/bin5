@@ -1,0 +1,117 @@
+#about{
+.first {
+  height: 500px;
+}
+
+.home-img_text1 {
+  position: absolute;
+  background: white;
+  top: 150px;
+  left: 75px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  width: 25%;
+  padding:10 30;
+  font-weight: 700;
+  .home-img_subtext{
+    vertical-align: 30%;
+    letter-spacing: 4px;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom:10px;
+  }
+}
+
+.home-img_text2 {
+  position: absolute;
+  background: white;
+  top: 260;
+  left: 75;
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 33%;
+  padding:15 30;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.second {
+  line-height: 150%;
+  font-size: 1.3em;
+  margin:70 auto;
+  width: 53%;
+  height: 500px;
+  text-align: left;
+  color: black;
+  .home_label{
+    margin-bottom: 10px;
+    font-size: .75em;
+    font-weight: bold;
+   }
+}
+}
+
+
+/* Large Devices, Wide Screens */
+   @media only screen and (max-width : 1200px) {
+
+   }
+
+   /* Medium Devices, Desktops */
+   @media only screen and (max-width : 992px) {
+
+   }
+
+   /* Small Devices, Tablets */
+   @media only screen and (max-width : 768px) {
+
+   }
+
+   /* Extra Small Devices, Phones */
+   @media only screen and (max-width : 480px) {
+
+   }
+
+   /* Custom, iPhone Retina */
+   @media only screen and (max-width : 320px) {
+     #about{
+       .first {
+         height: 425px;
+       }
+     .home-img_text1 {
+       top: 100;
+       left: 20%;
+       letter-spacing: 2px;
+       font-size: 1.2em;
+       width: 50%;
+       padding: 6 20;
+       .home-img_subtext{
+         vertical-align: 30%;
+         font-weight: 200;
+         font-size: .8em;
+         margin-bottom:10px;
+       }
+     }
+     .home-img_text2 {
+       background: white;
+       top: 165;
+       left: 20%;
+       width: 50%;
+       padding:6 20;
+       font-size: .7em;
+       font-weight: 500;
+     }
+
+     .second {
+       line-height: 150%;
+       font-size: .9em;
+       margin:70 auto;
+       width: 75%;
+       height: 200px;
+       .home_label{
+         margin-bottom: 10px;
+         font-size: .75em;
+        }
+     }
+   }
+ }
